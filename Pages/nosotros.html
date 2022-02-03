@@ -22,13 +22,35 @@
             <img class="logo" src="../Imágenes/Logo.PNG">
         </header>
 
-        <div id="Menu">
-            <a href="../index.html">Home</a>
-            <a href="./nosotros.html">Nosotros</a>
-            <a href="./productos.html">Productos</a>
-            <a href="./tienda.html">Tienda</a>
-            <a href="./usuario.html">Usuario</a>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../Pages/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../Pages/productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../Pages/tienda.html">Tienda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../Pages/usuario.html">Usuario</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-3" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
 
         <div id="explicacion">
                 <iframe class="video" src="https://www.youtube.com/embed/wH5kPcregm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

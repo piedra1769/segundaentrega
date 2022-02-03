@@ -11,6 +11,14 @@ body {
     display: grid;
 }
 
+.container-fluid {
+    background-color: #b4ccf0;
+}
+
+.carrusel {
+    background-color: black;
+}
+
 header {
     display: grid;
     grid-template-columns: 33% 33% 33%;
